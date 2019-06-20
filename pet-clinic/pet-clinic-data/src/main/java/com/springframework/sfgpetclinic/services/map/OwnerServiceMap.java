@@ -4,7 +4,9 @@ import java.util.Set;
 
 import com.springframework.sfgpetclinic.model.Owner;
 import com.springframework.sfgpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
 	@Override
